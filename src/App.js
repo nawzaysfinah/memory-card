@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import logo from "./pokemon_logo.png";
+
+import "./MemoryCardGame.css";
 
 function MemoryCardGame() {
   const [cards, setCards] = useState([]);
@@ -61,7 +64,8 @@ function MemoryCardGame() {
   }, [streak, highestScore]);
 
   return (
-    <div>
+    <div className="main">
+      <img src={logo} alt="pokemon_logo" className="logo" width={200} />
       <h1>Memory Card Game</h1>
       <div className="grid">
         {cards.map((card) => (
@@ -72,7 +76,10 @@ function MemoryCardGame() {
             }`}
             onClick={() => handleClick(card.id)}
           >
-            {card.id}
+            <img
+              src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${card.id}.png`}
+              alt={`Pokemon ${card.id}`}
+            />
           </div>
         ))}
       </div>
