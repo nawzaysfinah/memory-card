@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.4dff24d0.css",
+    "main.js": "/memory-card/static/js/main.6da29c4c.js",
+    "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/pokemon_logo.png": "/memory-card/static/media/pokemon_logo.c926352f98fdc288a692.png",
+    "index.html": "/memory-card/index.html",
+    "main.4dff24d0.css.map": "/memory-card/static/css/main.4dff24d0.css.map",
+    "main.6da29c4c.js.map": "/memory-card/static/js/main.6da29c4c.js.map",
+    "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dff24d0.css",
+    "static/js/main.6da29c4c.js"
+  ]
+}
